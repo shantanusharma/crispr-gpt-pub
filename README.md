@@ -6,6 +6,12 @@ CRISPR-GPT is an innovative Large Language Model (LLM) agent designed to automat
 
 ## Demo
 
+We have built a demo website with online version of CRISPR-GPT fully deployed:
+https://www.crispr-gpt.com/
+
+Please sign up for early access and beta testing at:
+https://forms.gle/QBgEuJv5aEbGnmTe7
+
 [Insert demo image or video showcasing how the agent works]
 
 This demo shows how CRISPR-GPT assists in automating the design of a CRISPR knockout experiment, allowing users to quickly transition between different stages of setup, execution, and data collection.
