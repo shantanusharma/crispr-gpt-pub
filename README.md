@@ -50,8 +50,8 @@ We are committed to continuously improving CRISPR-GPT and expanding its capabili
 
 
 
-- **Support for New CRISPR Methods and Workflows**: examples are we are working on Cas13-based RNA-editing.
-- **Improved LLM via User/Expert Feedback**: Enhancing AI performance through fine-tuning with CRISPR-specific datasets, your expertise and feedback needed so please sign up for testing CRISPR-GPT as noted above.
+- **Support for New CRISPR Methods and Workflows**: examples include Cas13-based RNA-editing.
+- **Improved LLM via User/Expert Feedback**: Enhancing AI performance through fine-tuning with larger datasets, your expertise and feedback needed so please sign up for testing CRISPR-GPT as noted above.
 - **User Interface Upgrades**: Creating a more intuitive and customizable front end for managing experiments.
 - **Integration with Lab Automation**: Facilitating hands-on execution of experiments using robotics and lab automation tools.
 - **Integration with Lab Notebook**: Developing APIs for integration with existing laboratory information management systems (LIMS).
