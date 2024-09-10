@@ -1,6 +1,7 @@
 # CRISPR-GPT: An LLM Agent for Automated Design of Gene-Editing Experiments
 
-![CRISPR-GPT Logo](path/to/logo.svg)
+![image](https://github.com/user-attachments/assets/701e7878-1f37-4dd1-a256-b68141a549fc)
+
 
 CRISPR-GPT is an innovative Large Language Model (LLM) agent designed to automate and streamline the process of designing gene-editing experiments. By leveraging the power of advanced language models, CRISPR-GPT assists researchers in planning, executing, and analyzing CRISPR-based gene editing tasks with unprecedented efficiency and accuracy.
 
