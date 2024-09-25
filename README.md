@@ -1,21 +1,42 @@
-# CRISPR-GPT: An LLM Agent for Automated Design of Gene-Editing Experiments
+# CRISPR-GPT: LLM Agents for Automated Design of Gene-Editing Experiments
 
 ![image](https://github.com/user-attachments/assets/701e7878-1f37-4dd1-a256-b68141a549fc)
 
 
 CRISPR-GPT is an innovative Large Language Model (LLM) agent designed to automate and streamline the process of designing gene-editing experiments. By leveraging the power of advanced language models, CRISPR-GPT assists researchers in planning, executing, and analyzing CRISPR-based gene editing tasks with unprecedented efficiency and accuracy.
 
-## Architexture
+## CRISPR-GPT Architecture
 
 <img width="830" alt="image" src="https://github.com/user-attachments/assets/56f830b8-a434-4fba-b9c4-ea54e0495f15">
 
-## Three user modes
+The backbone of CRISPR-GPT involves multi-agent collaboration between four core components: 
 
-<img width="780" alt="image" src="https://github.com/user-attachments/assets/401a6223-cddb-4f74-a369-77e34fdfbe7a">
+(1) **LLM Planner Agent** is responsible for configuring tasks based on the user’s needs. It automatically performs task decomposition based on the user’s request, the descriptions of the currently supported tasks, and internal knowledge. The state machines of the selected tasks are chained together to fulfill the user’s request. 
 
-## List of supported tasks
+(2) **Task Executor Agent** implements the chain of state machines from the Planner Agent, and is responsible for providing instructions and feedback, receiving input from User-Proxy Agent, and calling external tools. State machines are central to the Task Executor, where each state is responsible for one round of interaction with the user. The instruction is provided to the user first with sufficient information for the current decision-making step and the required inputs. After receiving the response from the user, it provides output and feedback, where Tool Providers are potentially called during the execution of the state. Afterward, the state machine transits to the next state. 
 
-<img width="482" alt="image" src="https://github.com/user-attachments/assets/78a358fd-a693-4fcc-b744-804829530185">
+(3) **LLM User-Proxy Agent** is responsible for interacting with the Task Executor on behalf of the user, where the user can monitor the process and provide corrections to the User-Proxy Agent if the generated content needs modification or improvement. It generates responses to every step of the state machine on behalf of the user. 
+
+(4) **Tool Providers** support diverse external tools and connect to search engines or databases via API calls.
+
+
+## CRISPR-GPT Supports 4 Gene-editing Scenarios with 3 User Modes
+
+<img width="830" alt="image" src="https://github.com/user-attachments/assets/401a6223-cddb-4f74-a369-77e34fdfbe7a">
+
+CRISPR-GPT supports four primary gene-editing modalities: **knockout**, **base-editing**, **prime-editing**, **epigenetic editing**, and offers three user interaction modes:
+
+(1) **Meta mode**: Step-by-Step Guidance on Pre-defined Gene-editing Meta-Tasks
+
+(2) **Auto mode**: Customized Guidance on Free-style User Requests
+
+(3) **QA mode**: Real-time Answers on Ad Hoc Questions
+
+
+## CRISPR-GPT Supports 22 Unqiue Gene-editing Tasks
+
+<img width="830" alt="image" src="https://github.com/user-attachments/assets/6e486915-c9cc-43af-b855-f12734414b69">
+
 
 ## Demo
 
@@ -25,9 +46,11 @@ https://www.crispr-gpt.com/
 Please sign up for early access and beta testing at:
 https://forms.gle/QBgEuJv5aEbGnmTe7
 
-<img width="430" alt="image" src="https://github.com/user-attachments/assets/0bea6fa8-fd0d-4c06-8aa5-2e3abd9e6c27">
 
-This demo shows how CRISPR-GPT assists in automating the design of a CRISPR knockout experiment, allowing users to quickly transition between different stages of setup, execution, and data collection.
+https://github.com/user-attachments/assets/411e45f8-5b99-4a75-88fd-b3c729b0b1a6
+
+
+This video demo shows how CRISPR-GPT assists in automating the design of a CRISPR knockout experiment, allowing users to quickly transition between different stages of setup, execution, and data collection.
 
 Our CRISPR-GPT agent guides users through the complex process of designing gene-editing experiments, from selecting target sequences to optimizing guide RNAs and predicting off-target effects. The demo above illustrates the step-by-step interaction between the user and the AI agent, highlighting its ability to provide expert-level assistance in real-time.
 
