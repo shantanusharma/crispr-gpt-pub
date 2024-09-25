@@ -121,8 +121,8 @@ If you use CRISPR-GPT in your research, please cite our work:
 
 For questions, suggestions, or collaborations, please contact:
 
-[CRISPR-GPT Team]
-Emails: 
+[CRISPR-GPT Team] Emails: 
+
 Le Cong: [congle@stanford.edu]
 Yuanhao Qu: [yhqu@stanford.edu]
 Kaixuan Huang: [kaixuanh@princeton.edu]
