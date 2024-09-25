@@ -1,7 +1,7 @@
 # CRISPR-GPT: LLM Agents for Automated Gene-Editing
-
-<img width="415" alt="image" src="https://github.com/user-attachments/assets/701e7878-1f37-4dd1-a256-b68141a549fc">
-
+<p align="center">
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/701e7878-1f37-4dd1-a256-b68141a549fc">
+</p>
 CRISPR-GPT is an innovative Large Language Model (LLM) agent designed to automate and streamline the process of designing gene-editing experiments. By leveraging the power of advanced language models, CRISPR-GPT assists researchers in planning, executing, and analyzing CRISPR-based gene editing tasks with unprecedented efficiency and accuracy.
 
 ## CRISPR-GPT Architecture
@@ -10,11 +10,11 @@ CRISPR-GPT is an innovative Large Language Model (LLM) agent designed to automat
 
 The backbone of CRISPR-GPT involves multi-agent collaboration between four core components: 
 
-(1) **LLM Planner Agent** is responsible for configuring tasks based on the user’s needs. It automatically performs task decomposition based on the user’s request, the descriptions of the currently supported tasks, and internal knowledge. The state machines of the selected tasks are chained together to fulfill the user’s request. 
+(1) **LLM Planner Agent** is responsible for configuring tasks based on the user’s needs. It automatically performs task decomposition based on the user’s request, the descriptions of the currently supported tasks, and internal knowledge.
 
-(2) **Task Executor Agent** implements the chain of state machines from the Planner Agent, and is responsible for providing instructions and feedback, receiving input from User-Proxy Agent, and calling external tools. State machines are central to the Task Executor, where each state is responsible for one round of interaction with the user. The instruction is provided to the user first with sufficient information for the current decision-making step and the required inputs. After receiving the response from the user, it provides output and feedback, where Tool Providers are potentially called during the execution of the state. Afterward, the state machine transits to the next state. 
+(2) **Task Executor Agent** implements the chain of state machines from the Planner Agent, and is responsible for providing instructions and feedback, receiving input from User-Proxy Agent, and calling external tools.
 
-(3) **LLM User-Proxy Agent** is responsible for interacting with the Task Executor on behalf of the user, where the user can monitor the process and provide corrections to the User-Proxy Agent if the generated content needs modification or improvement. It generates responses to every step of the state machine on behalf of the user. 
+(3) **LLM User-Proxy Agent** is responsible for interacting with the Task Executor on behalf of the user, where the user can monitor the process and provide corrections to the User-Proxy Agent if the generated content needs modification or improvement.
 
 (4) **Tool Providers** support diverse external tools and connect to search engines or databases via API calls.
 
@@ -114,7 +114,7 @@ To use CRISPR-GPT, you'll need:
 If you use CRISPR-GPT in your research, please cite our work:
 
 ```
-[Author Last Name], [First Initial]. et al. (2024). CRISPR-GPT: An LLM Agent for Automated Design of Gene-Editing Experiments. [Journal Name], [Volume](Issue), [Page Range]. https://doi.org/[DOI]
+Qu, Y. et al. CRISPR-GPT: An LLM Agent for Automated Design of Gene-Editing Experiments. 2024.04.25.591003 Preprint at https://doi.org/10.1101/2024.04.25.591003 (2024).
 ```
 
 ## Contact
@@ -129,5 +129,3 @@ Kaixuan Huang: [kaixuanh@princeton.edu]
 Mengdi Wang: [mengdiw@princeton.edu]
 
 ---
-
-[Insert any additional information, acknowledgments, or disclaimers here]
