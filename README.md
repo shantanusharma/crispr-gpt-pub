@@ -10,11 +10,11 @@ CRISPR-GPT is an innovative Large Language Model (LLM) agent designed to automat
 
 The backbone of CRISPR-GPT involves multi-agent collaboration between four core components: 
 
-(1) **LLM Planner Agent** is responsible for configuring tasks based on the user’s needs. It automatically performs task decomposition based on the user’s request, the descriptions of the currently supported tasks, and internal knowledge.
+(1) **LLM Planner Agent** is responsible for configuring tasks, it automatically performs task decomposition based on the user’s request.
 
 (2) **Task Executor Agent** implements the chain of state machines from the Planner Agent, and is responsible for providing instructions and feedback, receiving input from User-Proxy Agent, and calling external tools.
 
-(3) **LLM User-Proxy Agent** is responsible for interacting with the Task Executor on behalf of the user, where the user can monitor the process and provide corrections to the User-Proxy Agent if the generated content needs modification or improvement.
+(3) **LLM User-Proxy Agent** is responsible for interacting with the Task Executor on behalf of the user, where the user can monitor the process and provide corrections to the User-Proxy Agent.
 
 (4) **Tool Providers** support diverse external tools and connect to search engines or databases via API calls.
 
