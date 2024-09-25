@@ -5,6 +5,18 @@
 
 CRISPR-GPT is an innovative Large Language Model (LLM) agent designed to automate and streamline the process of designing gene-editing experiments. By leveraging the power of advanced language models, CRISPR-GPT assists researchers in planning, executing, and analyzing CRISPR-based gene editing tasks with unprecedented efficiency and accuracy.
 
+## Architexture
+
+<img width="830" alt="image" src="https://github.com/user-attachments/assets/56f830b8-a434-4fba-b9c4-ea54e0495f15">
+
+## Three user modes
+
+<img width="780" alt="image" src="https://github.com/user-attachments/assets/401a6223-cddb-4f74-a369-77e34fdfbe7a">
+
+## List of supported tasks
+
+<img width="482" alt="image" src="https://github.com/user-attachments/assets/78a358fd-a693-4fcc-b744-804829530185">
+
 ## Demo
 
 We have built a demo website with online version of CRISPR-GPT fully deployed:
@@ -13,7 +25,7 @@ https://www.crispr-gpt.com/
 Please sign up for early access and beta testing at:
 https://forms.gle/QBgEuJv5aEbGnmTe7
 
-[Insert demo image or video showcasing how the agent works]
+<img width="430" alt="image" src="https://github.com/user-attachments/assets/0bea6fa8-fd0d-4c06-8aa5-2e3abd9e6c27">
 
 This demo shows how CRISPR-GPT assists in automating the design of a CRISPR knockout experiment, allowing users to quickly transition between different stages of setup, execution, and data collection.
 
@@ -87,7 +99,10 @@ If you use CRISPR-GPT in your research, please cite our work:
 For questions, suggestions, or collaborations, please contact:
 
 [Your Name]
-Email: [congle@stanford.edu](mailto:LeCong) [kaixuanh@princeton.edu](mailto:kaixuanh@princeton.edu)
+Email: 
+[congle@stanford.edu](mailto:LeCong) 
+[yhqu@stanford.edu](mailto:YuanhaoQu)
+[kaixuanh@princeton.edu](mailto:KaixuanHuang)
 
 ---
 
