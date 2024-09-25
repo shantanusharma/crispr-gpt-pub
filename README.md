@@ -114,7 +114,7 @@ To use CRISPR-GPT, you'll need:
 If you use CRISPR-GPT in your research, please cite our work:
 
 ```
-Qu, Y. et al. CRISPR-GPT: An LLM Agent for Automated Design of Gene-Editing Experiments. 2024.04.25.591003 Preprint at https://doi.org/10.1101/2024.04.25.591003 (2024).
+Qu, Y., Huang, K-X., et al. CRISPR-GPT: An LLM Agent for Automated Design of Gene-Editing Experiments. 2024.04.25.591003 Preprint at https://doi.org/10.1101/2024.04.25.591003 (2024).
 ```
 
 ## Contact
