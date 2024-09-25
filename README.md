@@ -1,7 +1,6 @@
-# CRISPR-GPT: LLM Agents for Automated Design of Gene-Editing Experiments
+# CRISPR-GPT: LLM Agents for Automated Gene-Editing
 
-![image](https://github.com/user-attachments/assets/701e7878-1f37-4dd1-a256-b68141a549fc)
-
+<img width="415" alt="image" src="https://github.com/user-attachments/assets/701e7878-1f37-4dd1-a256-b68141a549fc">
 
 CRISPR-GPT is an innovative Large Language Model (LLM) agent designed to automate and streamline the process of designing gene-editing experiments. By leveraging the power of advanced language models, CRISPR-GPT assists researchers in planning, executing, and analyzing CRISPR-based gene editing tasks with unprecedented efficiency and accuracy.
 
@@ -54,6 +53,7 @@ This video demo shows how CRISPR-GPT assists in automating the design of a CRISP
 
 Our CRISPR-GPT agent guides users through the complex process of designing gene-editing experiments, from selecting target sequences to optimizing guide RNAs and predicting off-target effects. The demo above illustrates the step-by-step interaction between the user and the AI agent, highlighting its ability to provide expert-level assistance in real-time.
 
+<!--
 ## Getting Started
 
 ### Installation
@@ -85,7 +85,7 @@ To get started with CRISPR-GPT, follow these steps:
 2. Follow the on-screen prompts to interact with the CRISPR-GPT agent.
 
 For more detailed instructions and advanced usage, please refer to our [README](README.md) file.
-
+-->
 ## Roadmap
 
 We are committed to continuously improving CRISPR-GPT and expanding its capabilities. Our roadmap includes:
@@ -99,7 +99,7 @@ We are committed to continuously improving CRISPR-GPT and expanding its capabili
 - **Integration with Lab Notebook**: Developing APIs for integration with existing laboratory information management systems (LIMS).
 
 We value user feedback and will be actively incorporating suggestions from the research community to make CRISPR-GPT an indispensable tool in gene editing research.
-
+<!--
 ## Prerequisites
 
 To use CRISPR-GPT, you'll need:
@@ -108,7 +108,7 @@ To use CRISPR-GPT, you'll need:
 - OpenAI API key (for LLM interactions)
 - Gradio (for front-end interface if you'd like to test locally)
 - Required Python libraries (install via pip install -r requirements.txt)
-
+-->
 ## Citation
 
 If you use CRISPR-GPT in your research, please cite our work:
@@ -121,11 +121,12 @@ If you use CRISPR-GPT in your research, please cite our work:
 
 For questions, suggestions, or collaborations, please contact:
 
-[Your Name]
-Email: 
-[congle@stanford.edu](mailto:LeCong) 
-[yhqu@stanford.edu](mailto:YuanhaoQu)
-[kaixuanh@princeton.edu](mailto:KaixuanHuang)
+[CRISPR-GPT Team]
+Emails: 
+Le Cong: [congle@stanford.edu]
+Yuanhao Qu: [yhqu@stanford.edu]
+Kaixuan Huang: [kaixuanh@princeton.edu]
+Mengdi Wang: [mengdiw@princeton.edu]
 
 ---
 
