@@ -43,11 +43,9 @@ https://forms.gle/QBgEuJv5aEbGnmTe7
 - Automated Cas12a gRNA design with exon suggestion, delivery method selection for A549 cells.
 - Detailed protocol provided for cloning, viral packaging, editing validation.
 - Automated validation primer design (Primer3) and NGS data analysis (CRISPResso2 by Pinello Lab)
-<video width="600" controls>
-  <source src="https://github.com/user-attachments/assets/ba907f73-38ba-4394-a530-bddceea07bcc" type="video/quicktime">
-  Your browser does not support the video tag.
-</video>
+https://github.com/user-attachments/assets/ba907f73-38ba-4394-a530-bddceea07bcc
 
+<!--
 **Demo Video 2: Targeting APOE at user-defined ClinVar variant locus in primary human hepatocyte**
 - Automated gRNA design directly targeting user-defined locus near ClinVar variant.
 - Delivery method suggestion and predicting off-target effect (CRISPRitz by Pinello Lab)
@@ -63,6 +61,7 @@ https://forms.gle/QBgEuJv5aEbGnmTe7
   <source src="https://github.com/user-attachments/assets/a7fb04b4-70d1-4a91-a655-e34d5503cc80" type="video/quicktime">
   Your browser does not support the video tag.
 </video>
+-->
 
 The demo above illustrates the step-by-step interaction between the user and the CRISPR-GPT agent, highlighting its ability to provide expert-level assistance in real-time and automate multiple key tasks (detailed below).
 
