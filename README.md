@@ -46,6 +46,9 @@ https://forms.gle/QBgEuJv5aEbGnmTe7
 
 https://github.com/user-attachments/assets/ba907f73-38ba-4394-a530-bddceea07bcc
 
+
+https://github.com/user-attachments/assets/411e45f8-5b99-4a75-88fd-b3c729b0b1a6
+
 <!--
 **Demo Video 2: Targeting APOE at user-defined ClinVar variant locus in primary human hepatocyte**
 - Automated gRNA design directly targeting user-defined locus near ClinVar variant.
