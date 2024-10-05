@@ -31,12 +31,6 @@ CRISPR-GPT supports four primary gene-editing modalities: **knockout**, **base-e
 
 (3) **QA mode**: Real-time Answers on Ad Hoc Questions
 
-
-## CRISPR-GPT Supports 22 Unqiue Gene-editing Tasks
-
-<img width="830" alt="image" src="https://github.com/user-attachments/assets/6e486915-c9cc-43af-b855-f12734414b69">
-
-
 ## Demo
 
 We have built a demo website with online version of CRISPR-GPT fully deployed:
@@ -52,6 +46,10 @@ https://github.com/user-attachments/assets/411e45f8-5b99-4a75-88fd-b3c729b0b1a6
 This video demo shows how CRISPR-GPT assists in automating the design of a CRISPR knockout experiment, allowing users to quickly transition between different stages of setup, execution, and data collection.
 
 Our CRISPR-GPT agent guides users through the complex process of designing gene-editing experiments, from selecting target sequences to optimizing guide RNAs and predicting off-target effects. The demo above illustrates the step-by-step interaction between the user and the AI agent, highlighting its ability to provide expert-level assistance in real-time.
+
+## CRISPR-GPT Supports 22 Unqiue Gene-editing Tasks
+
+<img width="830" alt="image" src="https://github.com/user-attachments/assets/6e486915-c9cc-43af-b855-f12734414b69">
 
 <!--
 ## Getting Started
