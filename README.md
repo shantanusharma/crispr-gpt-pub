@@ -43,6 +43,7 @@ https://forms.gle/QBgEuJv5aEbGnmTe7
 - Automated Cas12a gRNA design with exon suggestion, delivery method selection for A549 cells.
 - Detailed protocol provided for cloning, viral packaging, editing validation.
 - Automated validation primer design (Primer3) and NGS data analysis (CRISPResso2 by Pinello Lab)
+
 https://github.com/user-attachments/assets/ba907f73-38ba-4394-a530-bddceea07bcc
 
 <!--
