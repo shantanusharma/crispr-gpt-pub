@@ -5,6 +5,9 @@
 
 **Read our preprint paper: [CRISPR-GPT: A Generative AI Agent for Automated Gene-Editing Experiment Design](https://www.biorxiv.org/content/10.1101/2024.04.25.591003v3)**
 
+**Please sign up for early access and beta testing at:
+https://forms.gle/QBgEuJv5aEbGnmTe7**
+
 CRISPR-GPT is an innovative Large Language Model (LLM) agent designed to automate and streamline the process of designing gene-editing experiments. By leveraging the power of advanced language models, CRISPR-GPT assists researchers in planning, executing, and analyzing CRISPR-based gene editing tasks with unprecedented efficiency and accuracy.
 
 ## CRISPR-GPT Architecture
