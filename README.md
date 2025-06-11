@@ -45,6 +45,12 @@ https://www.crispr-gpt.com/
 Please sign up for early access and beta testing at:
 https://forms.gle/QBgEuJv5aEbGnmTe7
 
+**Demo Video for to-be-released full website: fully automated workflow assembly using CRISPR-GPT**
+- This is our latest demo showing the automated workflow assembly and execution using CRISPR-GPT
+- Stay tuned for official release, please sign up via user link above!
+
+https://github.com/user-attachments/assets/8fcf9bbc-862c-4b3c-b499-cfbb9b39be53
+
 **Demo Video 1: Multi-target Cas12a editing of TGFBR1 in A549 lung cancer cells**
 - Automated Cas12a gRNA design with exon suggestion, delivery method selection for A549 cells.
 - Detailed protocol provided for cloning, viral packaging, editing validation.
