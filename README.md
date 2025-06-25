@@ -10,9 +10,7 @@ https://forms.gle/QBgEuJv5aEbGnmTe7**
 
 **Please check out our related Genome-Bench LLM reasoning work**
 🤔 How do you get an LLM to reason like a CRISPR pro—or any top scientist?
-Answer: By training it on real expert conversations! 
-
-To enable CRISPR-GPT agent, we built:
+Answer: By training it on real expert conversations! To enable CRISPR-GPT agent, we built:
 • Automated pipeline that distills learning signals from 10 + years of genomics discussions
 • Genome-Bench: 3,000 + curated Q&As on gene-editing fundamentals, lab troubleshooting & tool use
 • RL fine-tuning that injects hard-won lab wisdom straight into the model
