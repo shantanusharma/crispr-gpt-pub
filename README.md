@@ -8,7 +8,7 @@
 **Please sign up for early access and beta testing at:
 https://forms.gle/QBgEuJv5aEbGnmTe7**
 
-**Please check out our related Genome-Bench LLM reasoning work - get an LLM to reason like a CRISPR pro**
+**Please check out our related Genome-Bench LLM reasoning work**
 🤔 How do you get an LLM to reason like a CRISPR pro—or any top scientist?
 Answer: By training it on real expert conversations! 
 To enable CRISPR-GPT agent, we built:
