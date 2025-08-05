@@ -44,7 +44,40 @@ The backbone of CRISPR-GPT involves multi-agent collaboration between four core 
 
 ## Getting Started
 
-**Code Coming Soon!** We are preparing the CRISPR-GPT codebase for public release.
+### Release Information
+
+Due to safety concerns regarding AI applications in biological research, the complete CRISPR-GPT codebase (including full data, code, and prompts) will not be publicly released until the development of comprehensive US regulations governing artificial intelligence and its scientific applications.
+
+While the full code is not freely available, **it has undergone rigorous peer review** as part of our Nature Biomedical Engineering publication process.
+
+### Light Version (Developer Preview)
+
+We are releasing a **light version** of CRISPR-GPT on GitHub that includes:
+
+- ✅ Core infrastructure and framework
+- ✅ Basic chat interface
+- ✅ Limited task/functionality support
+
+### Installation (Light Version)
+
+```bash
+# Clone the repository
+git clone https://github.com/cong-lab/crispr-gpt-pub.git
+cd crispr-gpt-pub
+
+# Create conda environment
+conda create -n crispr-gpt-new python=3.11 -y
+conda activate crispr-gpt-new
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Set up OpenAI API key
+echo "OPENAI_KEY=your_openai_api_key_here" > .env
+
+# Run the application
+python main.py
+```
 
 ## Citation
 
