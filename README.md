@@ -7,16 +7,29 @@
 </div>
 </div>
 
-<div>
+<br>
+<div align="center">
+<!-- Buttons -->
+<a href="https://www.nature.com/articles/s41551-025-01463-z" style="text-decoration:none;">
+  <img src="https://img.shields.io/badge/Paper-Nature%20BME-red?style=for-the-badge&logo=readthedocs&logoColor=white" 
+       style="height:36px; margin:10px;">
 <br>
 
-<div align="center">
-
-[![Paper](https://img.shields.io/badge/Paper-Nature%20BME-red?style=for-the-badge)](https://www.nature.com/articles/s41551-025-01463-z)
-[![Website](https://img.shields.io/badge/Website-genomics.stanford.edu-blue?style=for-the-badge)](https://genomics.stanford.edu)
-[![Sign Up](https://img.shields.io/badge/Early%20Access-Sign%20Up-green?style=for-the-badge)](https://www.surveymonkey.com/r/G9GCMJV)
-
+<a href="https://genomics.stanford.edu" style="text-decoration:none;">
+  <img src="https://img.shields.io/badge/Website-genomics.stanford.edu-blue?style=for-the-badge&logo=google-chrome&logoColor=white" 
+       style="height:36px; margin:10px;">
+<br>
+</a>
+<br>
+<p style="font-size:20px; font-weight:bold; margin-top:20px;">
+  Please sign-up for beta access to CRISPR-GPT:
+</p>
+<a href="https://www.surveymonkey.com/r/G9GCMJV" style="text-decoration:none;">
+  <img src="https://img.shields.io/badge/Early%20Access-Sign%20Up-green?style=for-the-badge&logo=check-circle&logoColor=white" 
+       style="height:36px; margin:10px;">
+</a>
 </div>
+
 </div>
 
 ## Overview
