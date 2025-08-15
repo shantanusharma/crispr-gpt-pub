@@ -12,12 +12,12 @@
 <!-- Buttons -->
 <a href="https://www.nature.com/articles/s41551-025-01463-z" style="text-decoration:none;">
   <img src="https://img.shields.io/badge/Paper-Nature%20BME-red?style=for-the-badge&logo=readthedocs&logoColor=white" 
-       style="height:36px; margin:10px;">
+       style="height:30px; margin:10px;">
 <br>
 
 <a href="https://genomics.stanford.edu" style="text-decoration:none;">
   <img src="https://img.shields.io/badge/Website-genomics.stanford.edu-blue?style=for-the-badge&logo=google-chrome&logoColor=white" 
-       style="height:36px; margin:10px;">
+       style="height:30px; margin:10px;">
 <br>
 </a>
 <br>
@@ -26,7 +26,7 @@
 </p>
 <a href="https://www.surveymonkey.com/r/G9GCMJV" style="text-decoration:none;">
   <img src="https://img.shields.io/badge/Early%20Access-Sign%20Up-green?style=for-the-badge&logo=check-circle&logoColor=white" 
-       style="height:36px; margin:10px;">
+       style="height:30px; margin:10px;">
 </a>
 </div>
 
